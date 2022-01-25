@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Monoton&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+/***************fonts******************/
+* {
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+/*///////////////////////////////HAUT DE PAGE////////////////////////////////////*/
+
+/***************************image de couverture**********************************/
+/*pas de marge*/
+body {
+    margin : 0 auto;
+}
+/*dimensions*/
+section.top-page {
+    background: url('../images/pexels-saya-kimura-401107.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+/*******************************************************************************/
+/*********************************tête de page**********************************/
+header.header {
+    display : flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/*Taille du logo*/
+header.header img {
+    width: 100px;
+    margin-right: 0px;
+}
+/*Propriétés nom de l'entreprise*/
+header.header p.logo{
+    color : white;
+    font-weight: bold;
+    font-size: 40px;
+}
+/**************************barre de navigation*********************************/
+nav.menu-nav {
+    display : flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 80px;
+    list-style: none;
+    
+}
+
+nav.menu-nav li a{
+    color : white;
+    text-decoration: none; /*enlever la ligne en dessous*/
+}
+/*******************************************************************************/
+
+/*////////////////////////////////LANDING PAGE//////////////////////////////////*/
+div.landing-page{
+    align-items:baseline;
+    padding: 20px 50px;
+}
+p.welcome{
+    color :white;
+    font-size: 50px;
+    font-weight: 900;
+}
+p.intro{
+    color :white;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+/*couleur du fond*/
+body {
+    background-color: rgb(33, 36, 36);
+}
